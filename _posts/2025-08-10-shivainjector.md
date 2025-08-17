@@ -21,7 +21,7 @@ Also, by spawning processes like `RuntimeBroker` and `SvcHost` we increase our o
 
 Obviously we don't want to be detected, so that limits our options. We could target an `SvcHost` that's running on the system, then spoof the parent PPID. But if we connect with `WinRM` and the user isn't already active on the machine `wsmprovhost` is the only process that we can create a child to or inject into. Also, spawning a new process is noisy in itself.
 
-So the plan is to create a loader that will search for processes that can be injected into, rank by the freedoms those processes reguarly have, map a section into the best process, and then create a thread in that triggers the payload.
+So the plan is to create a loader that will search for processes that can be injected into, rank by the freedoms those processes reguarly have, map a section into the best process, and then create a thread that triggers the payload.
 
 ### A Simple First Step
 ---

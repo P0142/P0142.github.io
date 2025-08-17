@@ -26,6 +26,9 @@ https://api.vulnlab.com/api/v1/share?id=695f092c-d2dc-4457-ab6a-3a5fc899cd4d
 
 ### HTB Seasons:
 ---
+https://labs.hackthebox.com/achievement/season/53065/8
+![alt text](../assets/img/about/image-8.png)
+
 https://labs.hackthebox.com/achievement/season/53065/7
 ![alt text](../assets/img/about/image-2.png)
 

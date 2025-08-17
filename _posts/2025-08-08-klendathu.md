@@ -2,12 +2,27 @@
 title: Klendathu
 date: 2025-08-08
 categories: [Vulnlab, Chain, Windows]
-tags: [insane, active directory, mssql, ssh, kerberos, rdg]
+tags: [insane, active directory, mssql, ssh, kerberos, dpapi, rdg]
 description: Insane mixed environment chain on Vulnlab.
 image:
   path: ../assets/img/vulnlab/klendathu/image-1.png
 ---
 Klendathu is an Insane difficulty mixed/hybrid environment chain on Vulnlab with three machines. It was created by Snowscan.
+
+### Tools
+---
+- https://nmap.org/
+- https://github.com/fortra/impacket
+- https://github.com/Pennyw0rth/NetExec/
+- https://github.com/CravateRouge/bloodyAD
+- https://github.com/BishopFox/sliver
+- https://github.com/bugch3ck/SharpEfsPotato
+- https://github.com/synacktiv/ntdissector
+- https://github.com/tijldeneut/dpapilab-ng
+- https://github.com/ozelis/winrmexec
+- https://github.com/SpiderLabs/Responder
+- https://github.com/SpecterOps/BloodHound
+- https://github.com/openwall/john
 
 ## Recon
 ---
@@ -481,18 +496,3 @@ winrmexec.py KLENDATHU.VL/Administrator:$ADM_PASS@DC1.KLENDATHU.VL
 ![alt text](../assets/img/vulnlab/klendathu/image-61.png)
 
 This concludes the chain. Thanks to Xct for creating the platform, and Snowscan for creating the chain.
-
-### Tools
----
-- https://nmap.org/
-- https://github.com/fortra/impacket
-- https://github.com/Pennyw0rth/NetExec/
-- https://github.com/CravateRouge/bloodyAD
-- https://github.com/BishopFox/sliver
-- https://github.com/bugch3ck/SharpEfsPotato
-- https://github.com/synacktiv/ntdissector
-- https://github.com/tijldeneut/dpapilab-ng
-- https://github.com/ozelis/winrmexec
-- https://github.com/SpiderLabs/Responder
-- https://github.com/SpecterOps/BloodHound
-- https://github.com/openwall/john

@@ -9,6 +9,18 @@ image:
 ---
 Intercept is a hard difficulty Windows chain on Vulnlab with two machines, made by Xct. It features multi-host domain exploitation through SMB enumeration, relay attacks, and ADCS.
 
+### Tools
+---
+- https://nmap.org/
+- https://github.com/fortra/impacket
+- https://github.com/Pennyw0rth/NetExec/
+- https://github.com/CravateRouge/bloodyAD
+- https://github.com/ozelis/winrmexec
+- https://github.com/SpiderLabs/Responder
+- https://github.com/SpecterOps/BloodHound
+- https://github.com/openwall/john
+- https://github.com/ly4k/Certipy
+
 ## Recon
 ---
 ```sh
@@ -251,14 +263,3 @@ winrmexec.py -k -no-pass Admnistrator@DC01.intercept.vl
 ```
 ![alt text](../assets/img/vulnlab/intercept/image-37.png)
 
-### Tools
----
-- https://nmap.org/
-- https://github.com/fortra/impacket
-- https://github.com/Pennyw0rth/NetExec/
-- https://github.com/CravateRouge/bloodyAD
-- https://github.com/ozelis/winrmexec
-- https://github.com/SpiderLabs/Responder
-- https://github.com/SpecterOps/BloodHound
-- https://github.com/openwall/john
-- https://github.com/ly4k/Certipy
