@@ -5,7 +5,7 @@ order: 4
 ---
 
 Hello! I'm Polar, and I created this site mainly to host CTF and Lab writeups. There may be other things, but that is the ultimate focus.
-I've got my CRTP, CRTE, and soon CRTO.
+CRTP, CRTE, CRTO.
 
 You can find loaders and other tools that I create on my github:
 
@@ -23,6 +23,9 @@ https://api.vulnlab.com/api/v1/share?id=70720251-705a-4ddb-8ce3-e12fb97d7118
 
 https://api.vulnlab.com/api/v1/share?id=695f092c-d2dc-4457-ab6a-3a5fc899cd4d
 ![alt text](../assets/img/about/image-7.png)
+
+https://api.vulnlab.com/api/v1/share?id=a07c9c42-4acf-4357-bf03-b14ff984ea9c
+![alt text](../assets/img/about/image-9.png)
 
 ### HTB Seasons:
 ---
